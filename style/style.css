@@ -9,7 +9,7 @@ html{
 }
 
 .main-section{
-  background-color: #b3b1b1;
+  background-color: #d4d3d3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -80,6 +80,12 @@ html{
 
 .details-p{
   font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.summary{
+  font-size: 1.5rem;
+  color: #525151;
 }
 
 .project-links{
@@ -101,7 +107,7 @@ html{
 }
 
 .github-link{
-  background: url('../github-logo.png');
+  background: url('../images/github-logo.png');
   background-size: 10%;
   background-repeat: no-repeat;
   background-position: center;
